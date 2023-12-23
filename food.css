@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(Food_Pattern_5_01.jpg);
+    background-attachment: f
+    ;
+    filter: blur;
+}
+.tittle{
+    text-align: center;
+    line-height: 2;
+}
+.tittle h1{
+    font-family:monospace;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.tittle p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.tittle h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.search-btn{
+    width: 35rem;
+    margin: auto;
+    display: flex;
+}
+.search-btn input{
+    width: 100%;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: red;
+}
+.search-btn input::placeholder{
+    color: red;
+    margin-right: 10px;
+}
+.search-btn button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin: 0 0 0 -4px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-start-end-radius: 20px;
+    border-end-end-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+.search-btn button img{
+    width: 20px;
+    
+}
+.result{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.img-rec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+}
+.img
+{
+    max-width: 300px;
+    width: 30%;
+    border-radius: 10px;
+    min-width: 200px;
+    margin: 15px ;
+   background-color: #f4c3a6;
+    transition: box-shadow 1s ease-in-out;
+    
+}
+.img:hover{
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.result img{
+    width: 100%;
+}
+.img h1{
+    font-size: 25px;
+    margin: 2px solid;
+}
+.img button{
+    margin: 10px auto;
+    height: 40px;
+    width: 120px;
+     background: linear-gradient(45deg, #ffafbd , #ffc3a0);;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 1s ease-in-out;
+
+}
+.img button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.img button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.moreinfo{
+    visibility: hidden;
+    width: 95%;
+    left: 3%;
+    height: 38rem;
+     background: #ffdf98; 
+   /* backdrop-filter: blur(6px);*/
+    top: 2%;
+    position: fixed;
+}
+.des{
+    
+    max-width: 40rem;
+    width: 65%;
+    margin: 2% auto;
+}
+.desimg{
+    max-width: 200px;
+    min-width: 100px;
+    width: 17%;
+    margin: auto;
+}
+.desimg img{
+    border-radius: 50%;
+}
+.heading{
+    margin-top: 2%;
+}
+.watchnow{
+    min-width: 5rem;
+    max-width: 7rem;
+    margin: 2%;
+    width: 9%;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background: lightyellow;
+    cursor: pointer;
+}
+.close{
+    max-width: 20px;
+    width: 2%;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    border: 2px solid;
+    display: flex;
+    padding: 0.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.close-btn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
